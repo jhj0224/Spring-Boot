@@ -80,11 +80,11 @@
                 <c:if test="${actorCanMakeReaction}">
                   <a
                     href="/usr/reactionPoint/doGoodReaction?relTypeCode=article&relId=${param.id}&replaceUri=${rq.encodedCurrentUri}"
-                    class="btn btn-xs btn-primary btn-outline"> 좋아요 👍 </a>
+                    class="btn btn-xs btn-primary btn-outline">좋아요 👍 </a>
                   <span>&nbsp;</span>
                   <a
                     href="/usr/reactionPoint/doBadReaction?relTypeCode=article&relId=${param.id}&replaceUri=${rq.encodedCurrentUri}"
-                    class="btn btn-xs btn-secondary btn-outline"> 싫어요 👎 </a>
+                    class="btn btn-xs btn-secondary btn-outline">싫어요 👎 </a>
                 </c:if>
 
                 <c:if test="${actorCanCancelGoodReaction}">
